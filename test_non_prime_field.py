@@ -1,7 +1,7 @@
-# Testing test_non_prime_fields.py
+# Testing test_non_prime_field.py
 # Only "more complex" functions are tested because lazy
 
-from non_prime_fields import PrimeField, Polynomial, NonPrimeField, zero_poly, one_poly
+from non_prime_field import PrimeField, Polynomial, NonPrimeField, zero_poly, one_poly
 
 
 def test_primefield_invert():

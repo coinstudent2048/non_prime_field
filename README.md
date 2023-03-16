@@ -1,4 +1,4 @@
-# non_prime_fields
+# non_prime_field
 A stupid implementation of non-prime fields $\mathrm{GF}(p^n)$ with prime $p$ and $n>1$.
 
 **Never use in production! All algorithms are naive, so it's not even efficient!**
@@ -7,7 +7,7 @@ As usual, non-prime fields are constructed using the polynomial ring with coeffi
 
 #### Sample Usage
 ````python
-from non_prime_fields import PrimeField, Polynomial, NonPrimeField
+from non_prime_field import PrimeField, Polynomial, NonPrimeField
 
 # GF(4). p is the irreducible polynomial
 p = Polynomial([PrimeField(1, 2), PrimeField(1, 2), PrimeField(1, 2)], 2)
