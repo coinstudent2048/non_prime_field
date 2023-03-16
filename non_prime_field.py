@@ -1,4 +1,4 @@
-# Construction of Non-prime fields
+# Construction of non-prime fields
 # Python 3
 #
 # Minimal optimization and error-checking. Coded for clarity instead.
